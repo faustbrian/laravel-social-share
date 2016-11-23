@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Laravel Social Share.
+ *
+ * (c) Brian Faust <hello@brianfaust.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace BrianFaust\SocialShare;
 
 class Share
@@ -8,7 +17,7 @@ class Share
     {
         $class = __NAMESPACE__.'\\Services\\'.studly_case($method);
 
-        if (!class_exists($class)) {
+        if (! class_exists($class)) {
             throw new \Exception("Unknown service [$method].");
         }
 
