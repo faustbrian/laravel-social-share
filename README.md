@@ -11,20 +11,13 @@ $ composer require faustbrian/laravel-social-share
 And then include the service provider within `app/config/app.php`.
 
 ``` php
-'providers' => [
-    // ... Illuminate Providers
-    // ... App Providers
-    BrianFaust\SocialShare\ServiceProvider::class
-];
+BrianFaust\SocialShare\SocialShareServiceProvider::class
 ```
 
 And, for convenience, add a facade alias to this same file at the bottom:
 
 ``` php
-'aliases' => [
-    // ... Illuminate Facades
-    'Share' => BrianFaust\SocialShare\Facades\SocialShare::class
-];
+'Share' => BrianFaust\SocialShare\Facades\SocialShare
 ```
 
 ## Usage
