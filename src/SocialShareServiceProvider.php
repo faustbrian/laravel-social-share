@@ -11,7 +11,9 @@
 
 namespace BrianFaust\SocialShare;
 
-class ServiceProvider extends \BrianFaust\ServiceProvider\ServiceProvider
+use BrianFaust\ServiceProvider\ServiceProvider;
+
+class SocialShareServiceProvider extends ServiceProvider
 {
     public function register()
     {
