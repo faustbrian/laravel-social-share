@@ -17,7 +17,7 @@ class Share
     {
         $class = __NAMESPACE__.'\\Services\\'.studly_case($method);
 
-        if (! class_exists($class)) {
+        if (!class_exists($class)) {
             throw new \Exception("Unknown service [$method].");
         }
 

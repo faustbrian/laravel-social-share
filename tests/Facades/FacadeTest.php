@@ -11,9 +11,9 @@
 
 namespace BrianFaust\Tests\SocialShare\Facades;
 
-use GrahamCampbell\TestBenchCore\FacadeTrait;
-use BrianFaust\Tests\SocialShare\AbstractTestCase;
 use BrianFaust\SocialShare\Share;
+use BrianFaust\Tests\SocialShare\AbstractTestCase;
+use GrahamCampbell\TestBenchCore\FacadeTrait;
 
 class FacadeTest extends AbstractTestCase
 {
