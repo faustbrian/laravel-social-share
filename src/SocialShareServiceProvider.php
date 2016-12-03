@@ -9,13 +9,15 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
 namespace BrianFaust\SocialShare;
 
 use BrianFaust\ServiceProvider\ServiceProvider;
 
 class SocialShareServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function register(): void
     {
         parent::register();
 
@@ -24,12 +26,12 @@ class SocialShareServiceProvider extends ServiceProvider
         });
     }
 
-    public function provides()
+    public function provides(): array
     {
         return array_merge(parent::provides(), ['social-share']);
     }
 
-    public function getPackageName()
+    public function getPackageName(): string
     {
         return 'social-share';
     }
