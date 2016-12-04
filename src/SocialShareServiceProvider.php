@@ -22,9 +22,9 @@ declare(strict_types=1);
 
 namespace BrianFaust\SocialShare;
 
-use BrianFaust\ServiceProvider\ServiceProvider;
+use BrianFaust\ServiceProvider\AbstractServiceProvider;
 
-class SocialShareServiceProvider extends ServiceProvider
+class SocialShareServiceProvider extends AbstractServiceProvider
 {
     public function register(): void
     {
