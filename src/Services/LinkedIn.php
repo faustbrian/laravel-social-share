@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Social Share.
  *
@@ -24,9 +21,9 @@ class LinkedIn extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'url'   => $link,
+            'url' => $link,
             'title' => $text,
-            'mini'  => 'true',
+            'mini' => 'true',
         ];
     }
 }

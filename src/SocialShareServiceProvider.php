@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Social Share.
  *
@@ -14,26 +11,14 @@ declare(strict_types=1);
 
 namespace BrianFaust\SocialShare;
 
-use BrianFaust\ServiceProvider\AbstractServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class SocialShareServiceProvider extends AbstractServiceProvider
+class SocialShareServiceProvider extends ServiceProvider
 {
-    public function register(): void
+    public function register()
     {
-        parent::register();
-
         $this->app->singleton('social-share', function () {
             return new Share();
         });
-    }
-
-    public function provides(): array
-    {
-        return array_merge(parent::provides(), ['social-share']);
-    }
-
-    public function getPackageName(): string
-    {
-        return 'social-share';
     }
 }

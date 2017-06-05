@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Social Share.
  *
@@ -24,13 +21,13 @@ class Gmail extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'u'    => $link,
+            'u' => $link,
             'body' => $text,
             'view' => 'cm',
-            'fs'   => '1',
-            'to'   => null,
-            'ui'   => '2',
-            'tf'   => '1',
+            'fs' => '1',
+            'to' => null,
+            'ui' => '2',
+            'tf' => '1',
         ];
     }
 }

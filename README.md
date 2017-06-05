@@ -10,18 +10,6 @@ Require this package, with [Composer](https://getcomposer.org/), in the root dir
 $ composer require faustbrian/laravel-social-share
 ```
 
-And then include the service provider within `app/config/app.php`.
-
-``` php
-BrianFaust\SocialShare\SocialShareServiceProvider::class
-```
-
-And, for convenience, add a facade alias to this same file at the bottom:
-
-``` php
-'Share' => BrianFaust\SocialShare\Facades\SocialShare
-```
-
 ## Usage
 
 ``` php
@@ -42,19 +30,11 @@ Share::viadeo(route('post.show', $post->id), $post->title, $post->thumbnail);
 Share::vkcom(route('post.show', $post->id), $post->title, $post->thumbnail);
 ```
 
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ## Testing
 
 ``` bash
 $ phpunit
 ```
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
