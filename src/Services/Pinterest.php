@@ -21,8 +21,8 @@ class Pinterest extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'url' => $link,
-            'media' => $text,
+            'url'         => $link,
+            'media'       => $text,
             'description' => $text,
         ];
     }
