@@ -15,6 +15,9 @@ use Illuminate\Support\ServiceProvider;
 
 class SocialShareServiceProvider extends ServiceProvider
 {
+    /**
+     * Register any application services.
+     */
     public function register()
     {
         $this->app->singleton('social-share', function () {

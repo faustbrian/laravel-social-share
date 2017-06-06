@@ -21,7 +21,7 @@ class Facebook extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'u'     => $link,
+            'u' => $link,
             'title' => $text,
         ];
     }

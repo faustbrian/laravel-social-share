@@ -21,13 +21,13 @@ class Gmail extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'u'    => $link,
+            'u' => $link,
             'body' => $text,
             'view' => 'cm',
-            'fs'   => '1',
-            'to'   => null,
-            'ui'   => '2',
-            'tf'   => '1',
+            'fs' => '1',
+            'to' => null,
+            'ui' => '2',
+            'tf' => '1',
         ];
     }
 }

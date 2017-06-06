@@ -21,7 +21,7 @@ class Twitter extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'url'  => $link,
+            'url' => $link,
             'text' => $text,
         ];
     }

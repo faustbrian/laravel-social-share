@@ -21,9 +21,9 @@ class LinkedIn extends Service
     public static function getFields($link, $text, $media)
     {
         return [
-            'url'   => $link,
+            'url' => $link,
             'title' => $text,
-            'mini'  => 'true',
+            'mini' => 'true',
         ];
     }
 }
