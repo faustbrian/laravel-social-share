@@ -1,16 +1,16 @@
 # Laravel SocialShare
 
-[![Build Status](https://img.shields.io/travis/faustbrian/Laravel-Social-Share/master.svg?style=flat-square)](https://travis-ci.org/faustbrian/Laravel-Social-Share)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/laravel-social-share.svg?style=flat-square)]()
-[![Latest Version](https://img.shields.io/github/release/faustbrian/Laravel-Social-Share.svg?style=flat-square)](https://github.com/faustbrian/Laravel-Social-Share/releases)
-[![License](https://img.shields.io/packagist/l/faustbrian/Laravel-Social-Share.svg?style=flat-square)](https://packagist.org/packages/faustbrian/Laravel-Social-Share)
+[![Build Status](https://img.shields.io/travis/artisanry/Social-Share/master.svg?style=flat-square)](https://travis-ci.org/artisanry/Social-Share)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/artisanry/social-share.svg?style=flat-square)]()
+[![Latest Version](https://img.shields.io/github/release/artisanry/Social-Share.svg?style=flat-square)](https://github.com/artisanry/Social-Share/releases)
+[![License](https://img.shields.io/packagist/l/artisanry/Social-Share.svg?style=flat-square)](https://packagist.org/packages/artisanry/Social-Share)
 
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ``` bash
-$ composer require faustbrian/laravel-social-share
+$ composer require artisanry/social-share
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ $ phpunit
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@basecode.sh. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -50,4 +50,4 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © [Brian Faust](https://brianfaust.me)
+[MIT](LICENSE) © [Brian Faust](https://basecode.sh)

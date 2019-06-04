@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-social-share",
+    "name": "artisanry/social-share",
     "description": "",
-    "keywords": ["laravel", "framework", "Laravel-social-share", "Laravel Social Share", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-social-share", "Laravel Social Share"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\SocialShare\\": "src/"
+            "Artisanry\\SocialShare\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\SocialShare\\": "tests"
+            "Artisanry\\Tests\\SocialShare\\": "tests"
         }
     },
     "config": {
@@ -37,10 +37,10 @@
         },
         "laravel": {
             "providers": [
-                "BrianFaust\\SocialShare\\SocialShareServiceProvider"
+                "Artisanry\\SocialShare\\SocialShareServiceProvider"
             ],
             "aliases": {
-                "SocialShare": "BrianFaust\\SocialShare\\Facades\\SocialShare"
+                "SocialShare": "Artisanry\\SocialShare\\Facades\\SocialShare"
             }
         }
     },
